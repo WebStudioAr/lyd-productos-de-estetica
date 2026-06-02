@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LyD | Artículos de belleza y estética en Junín</title>
+  <meta name="description" content="Perfumes, maquillaje, labiales y productos de belleza en Junín. Consultá precios y disponibilidad por WhatsApp en LyD." />
+  <meta name="theme-color" content="#FAF7F3" />
+
+  <link rel="icon" type="image/svg+xml" href="Assets/NYD_Isotipo.svg" />
+
+  <!-- Google Fonts: Playfair Display + Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#inicio" class="header__brand" aria-label="LyD inicio">
+        <img src="Assets/NYD_Isotipo.svg" alt="LyD" class="header__logo" />
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Navegación principal">
+        <ul class="nav__list">
+          <li><a href="#inicio" class="nav__link">Inicio</a></li>
+          <li><a href="#productos" class="nav__link">Productos</a></li>
+          <li><a href="#galeria" class="nav__link">Galería</a></li>
+          <li><a href="#ubicacion" class="nav__link">Ubicación</a></li>
+        </ul>
+      </nav>
+
+      <a href="https://wa.me/5492364000000?text=Hola%20LyD%2C%20quiero%20consultar%20por%20productos%20y%20precios."
+         class="btn btn--primary header__cta"
+         target="_blank" rel="noopener">
+        <svg class="icon-wa" viewBox="0 0 24 24" aria-hidden="true"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.554-5.338 11.89-11.893 11.89a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.607z" fill="currentColor"/></svg>
+        Consultar
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="inicio">
+    <div class="hero__bg" aria-hidden="true">
+      <img src="Assets/Fondo_lejos.png" alt="" />
+      <div class="hero__bg-overlay"></div>
+    </div>
+
+    <div class="container hero__inner">
+      <div class="hero__content reveal">
+        <span class="eyebrow"><span class="eyebrow__dot"></span> Belleza & estética · Junín</span>
+        <h1 class="hero__title">
+          <span class="hero__line">Conocé LyD,</span>
+          <span class="hero__line">tu nuevo <span class="title-accent">punto beauty</span></span>
+          <span class="hero__line">en Junín</span>
+        </h1>
+        <p class="hero__desc">
+          En LyD encontrás perfumes, maquillaje, labiales y productos de belleza para uso personal, profesionales y salones. Consultá precios y disponibilidad por WhatsApp.
+        </p>
+
+        <div class="hero__ctas">
+          <a href="https://wa.me/5492364000000?text=Hola%20LyD%2C%20quiero%20consultar%20por%20productos%20y%20precios."
+             class="btn btn--violet" target="_blank" rel="noopener">
+            <svg class="icon-wa" viewBox="0 0 24 24" aria-hidden="true"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.554-5.338 11.89-11.893 11.89a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.607z" fill="currentColor"/></svg>
+            Consultar por WhatsApp
+          </a>
+          <a href="#productos" class="btn btn--silver">Ver productos</a>
+        </div>
+
+        <p class="hero__micro">
+          <span>Atención rápida</span><i></i><span>Local en Junín</span><i></i><span>Uso personal y profesional</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider" aria-hidden="true"></div>
+
+  <!-- ============ PRODUCTOS / CATEGORIAS ============ -->
+  <section class="section section--products section--vignette-violet" id="productos">
+    <div class="container">
+      <header class="section__head reveal">
+        <span class="eyebrow"><span class="eyebrow__dot"></span> Categorías</span>
+        <h2 class="section__title">Productos para realzar <span class="title-accent">cada estilo</span></h2>
+        <p class="section__desc">Una selección de artículos de belleza, maquillaje y estética para clientas, profesionales y salones.</p>
+      </header>
+
+      <div class="cards">
+
+        <article class="card reveal">
+          <div class="card__media">
+            <img src="Assets/maquillaje.jpg" alt="Productos de maquillaje sobre fondo claro" loading="lazy" />
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Maquillaje</h3>
+            <p class="card__text">Bases, sombras, rubores y productos esenciales para todos los días.</p>
+            <a href="https://wa.me/5492364000000?text=Hola%20LyD%2C%20quiero%20consultar%20por%20maquillaje." class="card__cta" target="_blank" rel="noopener">Consultar disponibilidad <span>→</span></a>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card__media">
+            <img src="https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=900&q=80" alt="Frascos de perfume elegantes" loading="lazy" />
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Perfumes</h3>
+            <p class="card__text">Fragancias para uso personal, regalos y elección diaria.</p>
+            <a href="https://wa.me/5492364000000?text=Hola%20LyD%2C%20quiero%20consultar%20por%20perfumes." class="card__cta" target="_blank" rel="noopener">Consultar disponibilidad <span>→</span></a>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card__media">
+            <img src="https://images.unsplash.com/photo-1586495777744-4413f21062fa?auto=format&fit=crop&w=900&q=80" alt="Labiales en tonos nude y rojos" loading="lazy" />
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Labiales</h3>
+            <p class="card__text">Tonos, texturas y acabados para completar cualquier look.</p>
+            <a href="https://wa.me/5492364000000?text=Hola%20LyD%2C%20quiero%20consultar%20por%20labiales." class="card__cta" target="_blank" rel="noopener">Consultar disponibilidad <span>→</span></a>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card__media">
+            <img src="Assets/belleza_profesional.jpg" alt="Brochas y herramientas de maquillaje profesional" loading="lazy" />
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Belleza profesional</h3>
+            <p class="card__text">Artículos pensados para profesionales, salones y amantes del cuidado personal.</p>
+            <a href="https://wa.me/5492364000000?text=Hola%20LyD%2C%20quiero%20consultar%20por%20belleza%20profesional." class="card__cta" target="_blank" rel="noopener">Consultar disponibilidad <span>→</span></a>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card__media">
+            <img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=900&q=80" alt="Productos de skincare y estética" loading="lazy" />
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Productos de estética</h3>
+            <p class="card__text">Opciones para sumar a tu rutina o a tu espacio de trabajo.</p>
+            <a href="https://wa.me/5492364000000?text=Hola%20LyD%2C%20quiero%20consultar%20por%20productos%20de%20est%C3%A9tica." class="card__cta" target="_blank" rel="noopener">Consultar disponibilidad <span>→</span></a>
+          </div>
+        </article>
+
+        <article class="card card--cta reveal">
+          <div class="card__body card__body--center">
+            <h3 class="card__title">¿Buscás algo puntual?</h3>
+            <p class="card__text">Escribinos y te decimos si lo tenemos disponible.</p>
+            <a href="https://wa.me/5492364000000?text=Hola%20LyD%2C%20estoy%20buscando%20un%20producto%20puntual." class="btn btn--primary btn--sm" target="_blank" rel="noopener">Escribir por WhatsApp</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider" aria-hidden="true"></div>
+
+  <!-- ============ BENEFICIOS ============ -->
+  <section class="section section--benefits section--vignette-gold">
+    <div class="container">
+      <header class="section__head reveal">
+        <span class="eyebrow"><span class="eyebrow__dot"></span> Por qué LyD</span>
+        <h2 class="section__title">Comprar belleza debería ser <span class="title-accent">simple</span></h2>
+        <p class="section__desc">En LyD podés consultar productos, disponibilidad y precios de forma rápida por WhatsApp.</p>
+      </header>
+
+      <div class="benefits">
+        <article class="benefit reveal">
+          <div class="benefit__media">
+            <img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=900&q=80" alt="Profesional aplicando maquillaje" loading="lazy" />
+            <div class="benefit__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M16 21v-2a4 4 0 00-4-4H6a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
+            </div>
+          </div>
+          <div class="benefit__body">
+            <h3>Uso personal y profesional</h3>
+            <p>Productos pensados para clientas, profesionales y salones de belleza.</p>
+          </div>
+        </article>
+
+        <article class="benefit reveal">
+          <div class="benefit__media">
+            <img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?auto=format&fit=crop&w=900&q=80" alt="Local de belleza con productos en exhibición" loading="lazy" />
+            <div class="benefit__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+          </div>
+          <div class="benefit__body">
+            <h3>Local físico en Junín</h3>
+            <p>Estamos en Benito de Miguel 1565. Acercate a conocernos personalmente.</p>
+          </div>
+        </article>
+
+        <article class="benefit reveal">
+          <div class="benefit__media">
+            <img src="https://images.unsplash.com/photo-1631730359585-38a4935cbec4?auto=format&fit=crop&w=900&q=80" alt="Variedad de productos de belleza" loading="lazy" />
+            <div class="benefit__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2l2.39 5.36L20 8.27l-4 4.05.94 5.68L12 15.27l-4.94 2.73L8 12.32 4 8.27l5.61-.91L12 2z"/></svg>
+            </div>
+          </div>
+          <div class="benefit__body">
+            <h3>Variedad de artículos</h3>
+            <p>Perfumes, maquillaje, labiales y productos de estética en un solo lugar.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider" aria-hidden="true"></div>
+
+  <!-- ============ GALERIA ============ -->
+  <section class="section section--gallery" id="galeria">
+    <div class="container">
+      <header class="section__head reveal">
+        <span class="eyebrow"><span class="eyebrow__dot"></span> Galería</span>
+        <h2 class="section__title">Una vidriera pensada para <span class="title-accent">inspirarte</span></h2>
+        <p class="section__desc">Explorá una estética visual de productos de belleza, perfumes, labiales y maquillaje.</p>
+      </header>
+
+      <div class="gallery">
+        <figure class="g g--1 reveal">
+          <img src="https://images.unsplash.com/photo-1631214540242-3cdb7e3a3c3a?auto=format&fit=crop&w=1100&q=80" alt="Close-up de labial color nude" loading="lazy" />
+          <figcaption>Labiales</figcaption>
+        </figure>
+        <figure class="g g--2 reveal">
+          <img src="https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=900&q=80" alt="Perfume sobre fondo marfil" loading="lazy" />
+          <figcaption>Perfumes</figcaption>
+        </figure>
+        <figure class="g g--3 reveal">
+          <img src="https://images.unsplash.com/photo-1596704017254-9b121068fb31?auto=format&fit=crop&w=900&q=80" alt="Brochas de maquillaje profesional" loading="lazy" />
+          <figcaption>Brochas</figcaption>
+        </figure>
+        <figure class="g g--4 reveal">
+          <img src="https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=1100&q=80" alt="Tocador glam con productos de belleza" loading="lazy" />
+          <figcaption>Tocador</figcaption>
+        </figure>
+        <figure class="g g--5 reveal">
+          <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=900&q=80" alt="Producto de skincare y estética" loading="lazy" />
+          <figcaption>Skincare</figcaption>
+        </figure>
+        <figure class="g g--6 reveal">
+          <img src="https://images.unsplash.com/photo-1599733589046-8a35aef0d129?auto=format&fit=crop&w=900&q=80" alt="Detalles dorados de maquillaje" loading="lazy" />
+          <figcaption>Detalles</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider" aria-hidden="true"></div>
+
+  <!-- ============ UBICACION ============ -->
+  <section class="section section--location section--vignette-gold" id="ubicacion">
+    <div class="container">
+      <div class="location">
+        <div class="location__info reveal">
+          <span class="eyebrow"><span class="eyebrow__dot"></span> Ubicación</span>
+          <h2 class="section__title">Encontranos en <span class="title-accent">Junín</span></h2>
+          <p class="section__desc">Estamos en Benito de Miguel 1565. Acercate a conocer LyD o escribinos por WhatsApp para consultar productos disponibles.</p>
+
+          <div class="location__address">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <div>
+              <strong>Benito de Miguel 1565</strong>
+              <span>Junín, Buenos Aires</span>
+            </div>
+          </div>
+
+          <div class="location__ctas">
+            <a href="https://www.google.com/maps/dir/?api=1&destination=Benito+de+Miguel+1565,+Junin,+Buenos+Aires" target="_blank" rel="noopener" class="btn btn--silver">Cómo llegar</a>
+            <a href="https://wa.me/5492364000000?text=Hola%20LyD%2C%20quiero%20consultar%20por%20productos%20y%20precios." class="btn btn--primary" target="_blank" rel="noopener">
+              <svg class="icon-wa" viewBox="0 0 24 24" aria-hidden="true"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.554-5.338 11.89-11.893 11.89a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.607z" fill="currentColor"/></svg>
+              Consultar por WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <div class="location__map reveal">
+          <iframe
+            src="https://www.google.com/maps?q=Benito+de+Miguel+1565,+Junin,+Buenos+Aires&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Mapa de LyD en Junín">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider section-divider--dark" aria-hidden="true"></div>
+
+  <!-- ============ CTA FINAL ============ -->
+  <section class="section section--cta">
+    <div class="container">
+      <div class="final reveal">
+        <div class="final__shine" aria-hidden="true"></div>
+        <span class="eyebrow eyebrow--center"><span class="eyebrow__dot"></span> Consultá ahora</span>
+        <h2 class="section__title section__title--center">¿Querés consultar precios o <span class="title-accent">disponibilidad</span>?</h2>
+        <p class="section__desc section__desc--center">Escribinos por WhatsApp y te contamos qué productos tenemos disponibles para vos, tu rutina o tu salón.</p>
+        <a href="https://wa.me/5492364000000?text=Hola%20LyD%2C%20quiero%20consultar%20por%20productos%20y%20precios." class="btn btn--primary btn--lg" target="_blank" rel="noopener">
+          <svg class="icon-wa" viewBox="0 0 24 24" aria-hidden="true"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.554-5.338 11.89-11.893 11.89a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.607z" fill="currentColor"/></svg>
+          Consultar ahora por WhatsApp
+        </a>
+        <p class="final__note">Respondemos consultas sobre perfumes, maquillaje, labiales y productos de estética.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <img src="Assets/NYD_Isotipo.svg" alt="LyD" />
+        <p>Artículos de belleza y estética profesional en Junín.</p>
+        <div class="footer__social">
+          <a href="https://instagram.com/lydprobeauty" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8" fill="currentColor"/></svg>
+          </a>
+          <a href="https://wa.me/5492364000000" target="_blank" rel="noopener" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.554-5.338 11.89-11.893 11.89a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.607z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer__col">
+        <h4><span class="footer__bullet"></span>Navegación</h4>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#productos">Productos</a></li>
+          <li><a href="#galeria">Galería</a></li>
+          <li><a href="#ubicacion">Ubicación</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h4><span class="footer__bullet"></span>Contacto</h4>
+        <ul>
+          <li><a href="https://wa.me/5492364000000" target="_blank" rel="noopener">+54 9 2364 00-0000</a></li>
+          <li><a href="https://instagram.com/lydprobeauty" target="_blank" rel="noopener">@lydprobeauty</a></li>
+          <li>Benito de Miguel 1565, Junín</li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h4><span class="footer__bullet"></span>Horarios</h4>
+        <ul>
+          <li>Lun a Vie · 9 a 19 hs</li>
+          <li>Sábados · 9 a 13 hs</li>
+          <li class="footer__pill">Atención por WhatsApp</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <div class="container">
+        <span>© 2026 LyD. Todos los derechos reservados.</span>
+        <span class="footer__signature">Hecho con cuidado en Junín <em>✦</em></span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ FLOATING WHATSAPP ============ -->
+  <a href="https://wa.me/5492364000000?text=Hola%20LyD%2C%20quiero%20consultar%20por%20productos%20y%20precios."
+     class="fab-wa" target="_blank" rel="noopener" aria-label="Consultar por WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.554-5.338 11.89-11.893 11.89a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.607z" fill="currentColor"/></svg>
+    <span class="fab-wa__pulse" aria-hidden="true"></span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
